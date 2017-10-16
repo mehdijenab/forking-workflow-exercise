@@ -11,3 +11,7 @@ for i in range(1, 51):
         print("group {0} says: {1}".format(i, module.tweet().encode('utf-8')))
     except ImportError:
         pass
+def tweet():
+    return "Group 5: We need coffee!"
+
+
